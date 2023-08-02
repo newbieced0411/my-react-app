@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const LetterCounter = () => {
+const InputsCounter = () => {
   const [countInputs, setCountInputs] = useState(0);
 
   const CountInputs = (e) => {
@@ -34,4 +34,4 @@ const LetterCounter = () => {
   );
 };
 
-export default LetterCounter;
+export default InputsCounter;

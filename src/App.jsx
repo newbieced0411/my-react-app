@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HeaderComponent from "./components/HeaderComponent";
 import ChangingBackgroundColor from "./pages/ChangingBackgroudColor";
-import LetterCounter from "./pages/LetterCounter";
+import InputsCounter from "./pages/InputsCounter";
 import Error404 from "./pages/Error404";
 import FooterComponent from "./components/FooterComponent";
 
@@ -17,7 +17,7 @@ function App() {
             path="/background-color"
             element={<ChangingBackgroundColor />}
           />
-          <Route path="/letter-counter" element={<LetterCounter />} />
+          <Route path="/letter-counter" element={<InputsCounter />} />
           <Route path="*" element={<Error404 />} />
         </Routes>
         <FooterComponent />
