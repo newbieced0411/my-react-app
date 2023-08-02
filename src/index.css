@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Use the button styles within a class */
+@layer components {
+  body {
+    @apply bg-gray-100;
+  }
+}
